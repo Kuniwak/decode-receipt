@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    CFPropertyList (2.3.5)
+    itunes_receipt_decoder (0.3.1)
+      CFPropertyList (~> 2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  itunes_receipt_decoder (~> 0.3.1)
+
+BUNDLED WITH
+   1.14.4

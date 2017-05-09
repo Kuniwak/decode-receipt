@@ -1,0 +1,9 @@
+#!/bin/bash -eu -o pipefail
+
+function main() {
+  local base_dir="$(cd "$(dirname "$0")/.."; pwd)"
+
+  (cd "$base_dir" && bundle exec -- /usr/bin/env ruby "$base_dir/lib/decode_receipt.rb" "$1")
+}
+
+main "$1"
